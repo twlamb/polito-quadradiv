@@ -1,0 +1,25 @@
+{
+  "name": "polito-quadradiv",
+  "version": "1.0.0",
+  "homepage": "https://github.com/PolitoElements/polito-quadradiv",
+  "authors": [
+    "mbr4nt <mateus.brant@gmail.com>"
+  ],
+  "keywords": [
+    "polymer",
+    "webcomponents",
+    "squares"
+  ],
+  "main": "polito-quadradiv.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~1.1.4"
+  }
+}

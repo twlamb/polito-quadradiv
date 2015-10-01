@@ -1,0 +1,37 @@
+<dom-module id="polito-quadradiv">
+    <style>
+        :host {
+            display: block;
+            position: relative;
+        }
+        
+        img {
+            width:100%;
+        }
+        
+        div.parent {
+            width:100%;
+        }
+        
+        div.child {
+            position: absolute;
+        }
+    </style>
+    <template>
+
+        <div class="parent">
+            <div class="child">
+                <content></content>
+            </div>
+            <img src="./quadra-pixel.png" />
+        </div>
+
+    </template>
+
+</dom-module>
+
+<script>
+    Polymer({
+        is: "polito-quadradiv"
+    });
+</script>
