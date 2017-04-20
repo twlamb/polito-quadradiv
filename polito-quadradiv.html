@@ -1,29 +1,28 @@
 <dom-module id="polito-quadradiv">
-    <style>
-        :host {
-            display: block;
-            position: relative;
-        }
-        
-        img {
-            width:100%;
-        }
-        
-        div.parent {
-            width:100%;
-        }
-        
-        div.child {
-            position: absolute;
-        }
-    </style>
     <template>
-
+        <style>
+            :host {
+                display: block;
+                position: relative;
+            }
+            
+            img {
+                width:100%;
+            }
+            
+            div.parent {
+                width:100%;
+            }
+            
+            div.child {
+                position: absolute;
+            }
+        </style>
         <div class="parent">
             <div class="child">
-                <content></content>
+                <slot></slot>
             </div>
-            <img src="./quadra-pixel.png" />
+            <img src="[[importPath]]/quadra-pixel.png" />
         </div>
 
     </template>
